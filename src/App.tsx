@@ -31,7 +31,7 @@ function App() {
       transport: http("https://gnosischain-rpc.gateway.pokt.network​"),
     });
     const currentSong = await client.readContract({
-      address: "0xFAFeF3BEE6b80a7a129949CdA4016DD2fb8B175a",
+      address: "0x7b438D55C04771F2873664ffA04eF29cCf4Ab02C",
       abi: SongABI,
       publicClient: client,
       functionName: "song",
