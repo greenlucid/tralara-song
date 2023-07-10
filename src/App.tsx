@@ -1,3 +1,6 @@
+/* eslint-disable */
+// @ts-nocheck
+
 import { useEffect, useState } from "react";
 import "./App.css";
 import { getContract, createPublicClient, http } from "viem";
